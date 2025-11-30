@@ -1,3 +1,15 @@
-*.md
-dist*
-node_modules
+dist/
+node_modules/
+.env
+.DS_Store
+*.log
+
+# Keep documentation and .kiro folder
+README.md
+QUICKSTART.md
+HOW_TO_RUN.md
+IMPLEMENTATION_SUMMARY.md
+FINAL_SUMMARY.md
+COMMANDS.md
+START_HERE.md
+!.kiro/
