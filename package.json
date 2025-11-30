@@ -1,0 +1,39 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "Production-ready todo list application",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "test:run": "vitest --run",
+    "dev": "ts-node src/index.ts",
+    "demo": "ts-node src/cli.ts",
+    "web": "vite",
+    "web:build": "vite build",
+    "web:preview": "vite preview"
+  },
+  "keywords": [
+    "todo",
+    "task",
+    "list"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/uuid": "^10.0.0",
+    "@vitest/ui": "^1.0.0",
+    "fast-check": "^3.13.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "uuid": "^9.0.0",
+    "vite": "^7.2.4"
+  }
+}
