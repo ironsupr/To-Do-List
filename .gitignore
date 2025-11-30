@@ -5,7 +5,7 @@ node_modules/
 *.log
 
 # Keep documentation and .kiro folder
-README.md
+# README.md
 QUICKSTART.md
 HOW_TO_RUN.md
 IMPLEMENTATION_SUMMARY.md
